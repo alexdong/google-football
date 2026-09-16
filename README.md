@@ -3,6 +3,21 @@
 This repository contains an RL environment based on open-source game Gameplay
 Football. <br> It was created by the Google Brain team for research purposes.
 
+## Play the Kaggle scenario locally
+
+This fork includes a tested Ubuntu launcher for the same `11_vs_11_kaggle`
+scenario used by the Google Football competition. On a fresh checkout, run:
+
+```shell
+./scripts/setup-local.sh
+./scripts/play-kaggle.sh
+```
+
+The arrow keys move your selected player. Use `S` for a short pass, `A` for a
+high pass, `D` to shoot, `W` for a long pass, `Q` to switch players, `C` to
+dribble, and `E` to sprint. Press Ctrl+C in the launching terminal to stop the
+game.
+
 Useful links:
 
 * [Run in Colab](https://colab.research.google.com/github/google-research/football/blob/master/gfootball/colabs/gfootball_example_from_prebuild.ipynb) - start training in less that 2 minutes.
