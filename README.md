@@ -6,10 +6,20 @@ Football. <br> It was created by the Google Brain team for research purposes.
 ## Play the Kaggle scenario locally
 
 This fork includes a tested Ubuntu launcher for the same `11_vs_11_kaggle`
-scenario used by the Google Football competition. On a fresh checkout, run:
+scenario used by the Google Football competition.
+
+For the first launch, clone the repository and run the setup script:
 
 ```shell
+git clone https://github.com/alexdong/google-football.git
+cd google-football
 ./scripts/setup-local.sh
+```
+
+Launch the game with:
+
+```shell
+cd google-football
 ./scripts/play-kaggle.sh
 ```
 
